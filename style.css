@@ -9,6 +9,7 @@
     position: sticky;
     top: 0;
     background-color: rgb(12, 39, 66);
+    z-index: 10;
 
 }
 .blue-link{
@@ -249,4 +250,22 @@ color: rgb(249, 73, 24);
 }footer{
     box-shadow: 0px 0px 10px rgba(31, 163, 234, 0.5);
 
+}
+.help{
+    border: none;
+    background-color: #FF350F;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 5px 14px;
+    position: fixed;
+    margin: 30px;
+    bottom: 0;
+    right: 0;
+}
+.help-con{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
 }
